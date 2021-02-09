@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: HyG
+title: Hello,world
 brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kkogggokk.github.io" # the base hostname & protocol for your site
@@ -17,13 +17,13 @@ permalink: /:year/:month/:day/:title/
 twitter_username: kkogggokk
 facebook_username: 
 github_username:  kkogggokk
-email: kkogggokk
+email: kkogggokk@gmail.com
 weibo_username: 
 zhihu_username: 
 linkedIn_username: 
 dribbble_username:
 
-description_footer: 이게뭐지?
+description_footer: # Contact me 앞부분에 설명 푸터
 
 # comments
 # two ways to comment, only choose one, and use your own short name
@@ -36,7 +36,7 @@ disqus_shortname: hello
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
 baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
-google_analytics_id:  # google 分析追踪id #CHECK
+google_analytics_id:  # google 分析追踪id #CHECK : TODO
 
 # Build settings
 markdown: kramdown
