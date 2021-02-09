@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  
+  
+
+  <title>TIL 23: CocoaPods로 인한 Warning 제거 - Jamesu Devlog</title>
+
+  <!-- Begin Jekyll SEO tag v2.5.0 -->
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="TIL 23: CocoaPods로 인한 Warning 제거" />
+<meta name="author" content="jamesujeon" />
+<meta property="og:locale" content="ko_KR" />
+<meta name="description" content="TL;DR" />
+<meta property="og:description" content="TL;DR" />
+<link rel="canonical" href="https://jamesu.dev/posts/2021/01/18/til-23-removing-warnings-caused-by-cocoapods/" />
+<meta property="og:url" content="https://jamesu.dev/posts/2021/01/18/til-23-removing-warnings-caused-by-cocoapods/" />
+<meta property="og:site_name" content="Jamesu Devlog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-18T00:00:00+09:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://jamesu.dev/posts/2021/01/18/til-23-removing-warnings-caused-by-cocoapods/"},"author":{"@type":"Person","name":"jamesujeon"},"description":"TL;DR","url":"https://jamesu.dev/posts/2021/01/18/til-23-removing-warnings-caused-by-cocoapods/","@type":"BlogPosting","headline":"TIL 23: CocoaPods로 인한 Warning 제거","dateModified":"2021-01-18T00:00:00+09:00","datePublished":"2021-01-18T00:00:00+09:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- Additional SEO -->
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:800|Noto+Sans+KR:400,700,900|Noto+Sans&display=swap">
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-touch-icon.png">
+  <link rel="manifest" href="/assets/icon/site.webmanifest">
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="/assets/main.js"></script>
+
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="https://jamesu.dev/feed.xml" title="Jamesu Devlog" />
+
+  <!-- Google Analytics-->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153146788-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153146788-1');
+</script>
+
+  
+
+  <!-- Google AdSense -->
+  <script data-ad-client="ca-pub-3613903034488199" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+
+  <body>
+    <div>
+      
+
+
+
+
+
+
+<nav class="nav">
+  <div class="nav-container">
+    <a href="/posts">
+      <h2 class="nav-title">(this) -> <span>Jamesu</span></h2>
+    </a>
+
+    <ul>
+      <li class="selected">
+        <a href="/posts" class="menu">
+          <i class="fas fa-fw fa-book-open"></i>
+          <span>Posts</span>
+        </a>
+      </li>
+      <li >
+        <a href="/categories" class="menu">
+          <i class="fas fa-fw fa-folder"></i>
+          <span>Categories</span>
+        </a>
+      </li>
+      <li >
+        <a href="/tags" class="menu">
+          <i class="fas fa-fw fa-tags"></i>
+          <span>Tags</span>
+        </a>
+      </li>
+      <li >
+        <a href="/search" class="menu">
+          <i class="fas fa-fw fa-search"></i>
+          <span>Search</span>
+        </a>
+      </li>
+      <li >
+        <a href="/about" class="menu">
+          <i class="fas fa-fw fa-user-alt"></i>
+          <span>About</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+      <main>
+        <div class="post">
+  
+
+  
+  
+  <div class="category-items">
+    
+    
+      
+
+      <a href="/categories/etc" class="category-item">
+        Etc
+      </a>
+
+      
+        <span>></span>
+      
+    
+      
+
+      <a href="/categories/etc/til" class="category-item">
+        TIL
+      </a>
+
+      
+    
+  </div>
+
+
+
+  <h1 class="post-title">TIL 23: CocoaPods로 인한 Warning 제거</h1>
+
+  
+
+  
+  
+  <div class="tag-items">
+    
+      <a href="/tags/ios" class="tag-item">
+        #ios
+      </a>
+    
+      <a href="/tags/xcode" class="tag-item">
+        #xcode
+      </a>
+    
+  </div>
+
+
+
+  <div class="post-time">
+    <time datetime="2021-01-18 00:00:00 +0900">2021.01.18</time>
+  </div>
+
+  <h2 id="tldr">TL;DR</h2>
+
+<ul>
+  <li>CocoaPods로 외부 라이브러리 설치 후 생기는 Warning은 <code class="highlighter-rouge">post_install</code> 훅으로 쉽게 제거할 수 있다.</li>
+</ul>
+
+<h2 id="신경-쓰이는-warning-제거하기">신경 쓰이는 Warning 제거하기</h2>
+
+<p>개인적으로 Xcode에 노란색 Warning이 보이면 굉장히 거슬려서 가능하면 모두 제거하려고 하는 편이다.
+어떤 종류의 Warning이라도 검색을 통해 기필코 제거하려 한다.
+Warning이 치명적인 버그를 낳을 수도 있지만, 뭔가 잘못 코딩한 것 같은 느낌을 들게 하기 때문이다.</p>
+
+<p>사내에서 외부 라이브러리 연동으로 CocoaPods를 주로 사용하는데,
+언제부턴가 <code class="highlighter-rouge">pod install</code>로 외부 라이브러리를 설치하고 난 후에 Xcode에 몇몇 Warning이 뜨기 시작했다.</p>
+
+<p>치명적인 Warning은 아니기 때문에 Xcode에서 제공하는 설정 값 갱신 기능을 사용하면 쉽게 제거할 수 있다.
+하지만, 다른 개발자가 프로젝트를 이어 받아 진행할 수도 있고, 외부 라이브러리 설치 시마다 거슬릴 수 있으므로
+설정 값 갱신조차 필요하지 않도록 하고 싶었다.</p>
+
+<h2 id="post_install-hook"><code class="highlighter-rouge">post_install</code> Hook</h2>
+
+<p>CocoaPods에는 <code class="highlighter-rouge">post_install</code>
+<a href="https://guides.cocoapods.org/syntax/podfile.html#post_install" target="_blank">훅</a>이 존재하는데,
+이를 이용하면 <strong><code class="highlighter-rouge">pod</code> 설치 후 수행할 처리</strong>를 정의할 수 있다.
+앞서 발생한 Warning은 외부 라이브러리에 특정 설정 값이 적절하지 않게 세팅되어 발생한 것으로 해당 값을
+<code class="highlighter-rouge">pod</code> 설치 후 적절하게 세팅하도록 처리하면 된다.</p>
+
+<p>다음과 같은 훅을 추가해 설치된 외부 라이브러리의 <code class="highlighter-rouge">CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED</code>와
+<code class="highlighter-rouge">CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER</code> 값이 적절하게 세팅되도록 했다.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">post_install</span> <span class="k">do</span> <span class="o">|</span><span class="n">installer</span><span class="o">|</span>
+  <span class="n">installer</span><span class="p">.</span><span class="nf">pods_project</span><span class="p">.</span><span class="nf">build_configurations</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">config</span><span class="o">|</span>
+    <span class="n">config</span><span class="p">.</span><span class="nf">build_settings</span><span class="p">[</span><span class="s1">'CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'YES'</span>
+    <span class="n">config</span><span class="p">.</span><span class="nf">build_settings</span><span class="p">[</span><span class="s1">'CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER'</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'NO'</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></figure>
+
+<p>노란색 Warning들이 깔끔하게 사라진 것을 보고 아주 만족했다. 🙂</p>
+
+
+  
+    <div class="post-pagination">
+      
+        <a href="/posts/2021/01/20/til-24-defining-pagination-api-for-infinite-scroll/" class="left arrow">
+          <i class="fas fa-chevron-left fa-fw"></i>
+          <span class="left arrow-title">TIL 24: 무한 스크롤을 위한 페이징 API 설계</span>
+        </a>
+      
+      
+        <a href="/posts/2021/01/11/til-22-improving-custom-container-view-controller-2/" class="right arrow">
+          <i class="fas fa-chevron-right fa-fw"></i>
+          <span class="right arrow-title">TIL 22: 커스텀 컨테이너 뷰 컨트롤러 개선 2</span>
+        </a>
+      
+    </div>
+  
+
+  
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    var disqus_config = function () {
+      this.page.url = 'https://jamesu.dev/posts/2021/01/18/til-23-removing-warnings-caused-by-cocoapods/';
+      this.page.identifier = '/posts/2021/01/18/til-23-removing-warnings-caused-by-cocoapods';
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jamesu-dev.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+  
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- 반응형 광고 -->
+  <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-3613903034488199"
+      data-ad-slot="6365003071"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+</div>
+
+<button id="scrollToTop" class="top far fa-caret-square-up"></button>
+
+      </main>
+
+      <footer>
+  <a href="mailto:jamesujeon@gmail.com">
+    <i class="far fa-envelope fa-fw"></i>
+  </a>
+  <a href="https://github.com/jamesujeon" target="_blank">
+    <i class="fab fa-github fa-fw"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/minsu-jeon-532282198" target="_blank">
+    <i class="fab fa-linkedin fa-fw"></i>
+  </a>
+  <a href="https://twitter.com/jamesujeon" target="_blank">
+    <i class="fab fa-twitter fa-fw"></i>
+  </a>
+
+  <br>
+  <span>&copy; 2019 jamesujeon</span>
+</footer>
+
+    </div>
+  </body>
+</html>
