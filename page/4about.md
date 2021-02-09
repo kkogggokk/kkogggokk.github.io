@@ -9,7 +9,7 @@ type: page
 * content
 {:toc}
 
-## 关于我
+## test
 
 <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
 
@@ -42,7 +42,7 @@ type: page
     });
 </script>
 
-## 联系我
+## test2
 
 * GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
 * email：gaohaoyang126@126.com
@@ -52,7 +52,8 @@ type: page
 * [豆瓣](https://www.douban.com/people/42525035/)
 * [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
 
-## 友情链接
+
+## test1
 
 [羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)
 
