@@ -11,9 +11,9 @@ type: page
 
 ## test
 
-<iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<!-- <iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe> -->
 
-<!-- Include the library. -->
+<!-- Include the library. Github calendar --> 
 <script
   src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
 ></script>
@@ -26,7 +26,7 @@ type: page
 
 <div>
     <!-- Prepare a container for your calendar. -->
-    <div style="text-align: center;"><strong>나의 GitHub Contribution 그래프</strong></div> 
+    <div style="text-align: center;"><strong>My GitHub Contribution </strong></div> 
     <div class="calendar">
         <!-- Loading stuff -->
         Loading data ...

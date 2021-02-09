@@ -6,30 +6,30 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: kkogggokk
-brief-intro: # 간단한 인트로
+title: kkogggokk # CHECK
+brief-intro: # CHECK
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kkogggokk.github.io" # the base hostname & protocol for your site
+url: "https://kkogggokk.github.io" # the base hostname & protocol for your site # CHECK
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: kkogggokk
-facebook_username: 
-github_username:  kkogggokk
-email: kkogggokk@gmail.com
+twitter_username: kkogggokk # CHECK
+facebook_username:  # CHECK
+github_username:  kkogggokk # CHECK
+email: kkogggokk@gmail.com # CHECK
 weibo_username: 
 zhihu_username: 
-linkedIn_username: 
+linkedIn_username: # CHECK
 dribbble_username:
 
-description_footer: # Contact me 앞부분에 설명 푸터
+description_footer: # Contact me 앞부분에 설명 푸터 # CHECK
 
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
 duoshuo_shortname: #hygblog
-disqus_shortname: kkogggokk
+disqus_shortname: kkogggokk # CHECK
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
