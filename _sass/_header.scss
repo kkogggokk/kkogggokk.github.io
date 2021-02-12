@@ -1,15 +1,15 @@
 header {
-    background: rgb(255, 0, 0);
+    background: #f0f5f9(255, 0, 0);
     height: 52px;
-    color: #9d9d9d;
+    color: #333030;
     box-shadow: 0 2px 4px 1px rgba(0,0,0,0.5);
     margin-bottom: 20px;
     a {
-        color: #9d9d9d;
+        color: #1e2022;
         -webkit-transition: 0.2s ease;
         transition: 0.2s ease;
         &:hover {
-            color: #fff;
+            color: #383A3F;
         }
     }
     .wrapper {
@@ -43,15 +43,15 @@ header {
                         padding: 0 10px;
                         height: 52px;
                         &:hover {
-                            background-color: #000;
+                            background-color: #383A3F;
                         }
                         i {
                             margin-right: 5px;
                         }
                     }
                     >.active {
-                        color: #fff;
-                        background-color: #000;
+                        color: #1e2022;
+                        background-color: #383A3F;
                         box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
                     }
                 }
