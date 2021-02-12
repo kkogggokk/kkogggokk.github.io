@@ -43,7 +43,7 @@ header {
                         padding: 0 10px;
                         height: 52px;
                         &:hover {
-                            background-color: #f0f5f9;
+                            background-color: #FFFFF3;
                         }
                         i {
                             margin-right: 5px;
@@ -51,7 +51,7 @@ header {
                     }
                     >.active {
                         color: #FFFFF3;
-                        background-color: #A593E0;
+                        background-color: #A593E0 ;
                         box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
                     }
                 }
