@@ -59,16 +59,15 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
 </div>
   </div>
 
-  <div class="about-graph">
-    <!-- Include the library. -->
-    <script
-    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-    ></script>
+<!-- Include the library. -->
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
 
 <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 <link
-rel="stylesheet"
-href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
 
 <div>
@@ -81,14 +80,13 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
 </div>
 
 <script>
-    GitHubCalendar(".calendar", "kkogggokkk", { responsive: true, tooltips: false, global_stats: false}).then(function() {
+    GitHubCalendar(".calendar", "kkogggokk", { responsive: true, tooltips: false, global_stats: false}).then(function() {
         // delete the space underneath the module bar which is caused by minheight 
         document.getElementsByClassName('calendar')[0].style.minHeight = "100px";
         // hide more and less legen below the contribution graph
         document.getElementsByClassName('contrib-legend')[0].style.display = "none";
     });
 </script>
-  </div>
 
   <div class="about-content">
     <div class="about-content-left">
