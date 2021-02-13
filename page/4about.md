@@ -16,6 +16,7 @@ type: page
       <img src="/assets/pic/_SIG_kkogggokk.png" alt="dfjkdfjlk">
       <div>&copy; kkk</div>
     </div>
+</div>
 
 ## 수정중 
 <div class="about-profile-content">
