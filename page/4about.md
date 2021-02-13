@@ -10,28 +10,22 @@ type: page
 {:toc}
 
 
-<div class="common-header">
-  <div class="common-header-title">
-    <h1>About</h1>
-  </div>
-</div>
-
 <div class="about">
   <div class="about-profile">
     <div class="about-profile-image">
-      <img src="/assets/img/profile/190927_jamesu_by_nahz.png" alt="Jamesu by nahz">
-      <div>&copy; nahz</div>
+      <img src="/assets/pic/_SIG_kkogggokk.png" alt="Jamesu by nahz">
+      <div>&copy; kkk</div>
     </div>
 
     <div class="about-profile-content">
       <h2><span>수정중</span> KKKKK<span>u</span> GGG</h2>
 
       <p>
-        분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-robot fa-fw"></i><br>
-        <span class="whisper">(모바일을 가장 좋아합니다. <i class="far fa-smile fa-fw"></i>)</span>
+        dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-robot fa-fw"></i><br>
+        <span class="whisper">ddddd<i class="far fa-smile fa-fw"></i>)</span>
       </p>
       <p>
-        개발 관련 글을 자유롭게 올립니다.
+        개발 관련 글을 자유롭게 올립니다.ddd
       </p>
 
       <div class="about-profile-content-contacts">
@@ -67,24 +61,24 @@ type: page
 
   <div class="about-graph">
     <!-- Include the library. -->
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-></script>
+    <script
+    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+    ></script>
 
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-   rel="stylesheet"
-   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
 
-<div>
-    <!-- Prepare a container for your calendar. -->
-    <div style="text-align: center;"><strong>나의 GitHub Contribution 그래프</strong></div> 
-    <div class="calendar">
-        <!-- Loading stuff -->
-        Loading data ...
+    <div>
+        <!-- Prepare a container for your calendar. -->
+        <div style="text-align: center;"><strong>나의 GitHub Contribution 그래프</strong></div> 
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading data ...
+        </div>
     </div>
-</div>
 
 <script>
     GitHubCalendar(".calendar", "kkogggokkk", { responsive: true, tooltips: false, global_stats: false}).then(function() {
