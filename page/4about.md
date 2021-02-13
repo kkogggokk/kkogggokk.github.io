@@ -17,8 +17,9 @@ type: page
       <div>&copy; kkk</div>
     </div>
 
+## 수정중 
 <div class="about-profile-content">
-    <h2><span>수정중</span> KKKKK<span>u</span> GGG</h2>
+    <!-- <h2><span>수정중</span> KKKKK<span>u</span> GGG</h2> -->
 
 <p>
 dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-robot fa-fw"></i><br>
@@ -88,9 +89,10 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
     });
 </script>
 
+## Experiences 
   <div class="about-content">
     <div class="about-content-left">
-      <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2>
+      <!-- <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2> --> 
       <ul>
         <li class="rank-1"><i class="far fa-check-square fa-fw"></i> iOS + Obj-C, Swift</li>
         <li class="rank-2"><i class="far fa-check-square fa-fw"></i> Android + Java</li>
