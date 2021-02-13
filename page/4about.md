@@ -9,21 +9,104 @@ type: page
 * content
 {:toc}
 
-## 关于我
 
-<iframe src="https://githubbadge.appspot.com/gaohaoyang?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
+<div class="common-header">
+  <div class="common-header-title">
+    <h1>About</h1>
+  </div>
+</div>
 
-## 联系我
+<div class="about">
+  <div class="about-profile">
+    <div class="about-profile-image">
+      <img src="/assets/img/profile/190927_jamesu_by_nahz.png" alt="Jamesu by nahz">
+      <div>&copy; nahz</div>
+    </div>
 
-* GitHub：[Gaohaoyang](https://github.com/Gaohaoyang)
-* email：kkogggokk@gmail.com
-* [Facebook](https://www.facebook.com/gaohaoyang.water)
+    <div class="about-profile-content">
+      <h2><span>James</span> Mins<span>u</span> Jeon</h2>
 
+      <p>
+        분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-robot fa-fw"></i><br>
+        <span class="whisper">(모바일을 가장 좋아합니다. <i class="far fa-smile fa-fw"></i>)</span>
+      </p>
+      <p>
+        개발 관련 글을 자유롭게 올립니다.
+      </p>
 
-## 友情链接
+      <div class="about-profile-content-contacts">
+        <li>
+          <i class="fas fa-map-marker-alt fa-fw"></i>
+          <span>Seoul, Republic of Korea</span>
+        </li>
+        <li>
+          <i class="far fa-envelope fa-fw"></i>
+          <span>{{ site.author.email }}</span>
+        </li>
+        <li>
+          <a href="{{ site.social.links[0] }}" target="_blank">
+            <i class="fab fa-github fa-fw"></i>
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.social.links[1] }}" target="_blank">
+            <i class="fab fa-linkedin fa-fw"></i>
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.social.links[2] }}" target="_blank">
+            <i class="fab fa-twitter fa-fw"></i>
+            <span>Twitter</span>
+          </a>
+        </li>
+      </div>
+    </div>
+  </div>
 
-[羡辙杂俎](http://zhangwenli.com/blog) \| [Anotherhome](https://www.anotherhome.net) \| [Reverland](http://reverland.org/) \| [ZhiLi](http://lizhipower.github.io/) \| [Simmer](http://simmer-jun.github.io/) \| [awthink](http://awthink.net/) \| [Aralic](http://aralic.github.io/) \| [zchen9](http://www.chen9.info/) \| [wuhuaji](http://wuhuaji.me/) \| [lisheng](http://www.lishengcn.cn/) \| [薛彬XueBin](http://axuebin.com/blog/) \| [TBOOX](http://www.tboox.org/cn/) \|  [Ling](http://linglinyp.com/)
+  <div class="about-graph">
+    <img src="https://ghchart.rshah.org/219138/jamesujeon"/>
+  </div>
 
-## Comments
-
-{% include comments.html %}
+  <div class="about-content">
+    <div class="about-content-left">
+      <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2>
+      <ul>
+        <li class="rank-1"><i class="far fa-check-square fa-fw"></i> iOS + Obj-C, Swift</li>
+        <li class="rank-2"><i class="far fa-check-square fa-fw"></i> Android + Java</li>
+        <li class="rank-1"><i class="far fa-check-square fa-fw"></i> Spring (Boot), JPA + Java, Kotlin</li>
+        <li class="rank-2"><i class="far fa-check-square fa-fw"></i> Flask, SQLAlchemy + Python</li>
+        <li class="rank-2"><i class="far fa-check-square fa-fw"></i> Angular + TypeScript</li>
+        <li class="rank-3"><i class="far fa-check-square fa-fw"></i> JavaScript, HTML/CSS</li>
+      </ul>
+    </div>
+  
+    <div class="about-content-right">
+      <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2>
+      <ul>
+        <li>
+          <i class="far fa-check-square fa-fw"></i>
+          <b>Marvel&nbsp;</b> Comics & Movies
+        </li>
+        <li>
+          <i class="far fa-check-square fa-fw"></i>
+          Korean <b>&nbsp;Chimaek&nbsp;</b>
+          (<i class="fas fa-drumstick-bite fa-fw"></i> + <i class="fas fa-beer fa-fw"></i>)
+        </li>
+        <li>
+          <i class="far fa-check-square fa-fw"></i>
+          <b>Knowledge&nbsp;</b> about Everything
+        </li>
+        <li>
+          <i class="far fa-check-square fa-fw"></i>
+          Travel&nbsp;
+          <i class="fas fa-suitcase-rolling fa-fw"></i>&nbsp;
+          <i class="fas fa-car-side fa-fw"></i>&nbsp;
+          <i class="fas fa-plane fa-fw"></i>&nbsp;
+          <i class="fas fa-camera fa-fw"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
