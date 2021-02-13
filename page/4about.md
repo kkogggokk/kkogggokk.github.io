@@ -87,7 +87,7 @@ type: page
 </div>
 
 <script>
-    GitHubCalendar(".calendar", "IamGroooooot", { responsive: true, tooltips: false, global_stats: false}).then(function() {
+    GitHubCalendar(".calendar", "kkogggokkk", { responsive: true, tooltips: false, global_stats: false}).then(function() {
         // delete the space underneath the module bar which is caused by minheight 
         document.getElementsByClassName('calendar')[0].style.minHeight = "100px";
         // hide more and less legen below the contribution graph
