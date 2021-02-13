@@ -27,12 +27,12 @@ tags: Python Codingtest Programmers
 
 (1) 기둥은 바닥 위에 있거나       
 기둥이 바닥위에 있는 경우를 살펴보면, 높이가 0이므로 y=0으로 표현할 수 있다.       
-<img src='https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/assets/pic/post_20210212_pic1.png' width='250' height='250'>  
+<img src='https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/assets/img/post_20210212_pic1.png' width='250' height='250'>  
 
 (2) 보의 한 쪽 끝 부분 위에 있거나       
 왼쪽 보(x-1, y, 1) 가 있는 경우 기둥 설치 가능하다.     
 오른쪽 보(x, y, 1) 가 있는 경우 기둥 설치가 가능하다.         
-<img src='https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/assets/pic/post_20210212_pic2.png' width='250' height='250'> 
+<img src='./assets/img/post_20210212_pic2.png' width='250' height='250'> 
 
 
 (3) 다른 기둥 위에 있어야 합니다.         
