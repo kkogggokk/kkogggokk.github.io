@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: About
 permalink: /about/
 icon: heart
@@ -24,7 +24,7 @@ type: page
     </div>
 
     <div class="about-profile-content">
-      <h2><span>James</span> Mins<span>u</span> Jeon</h2>
+      <h2><span>수정중</span> KKKKK<span>u</span> GGG</h2>
 
       <p>
         분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-robot fa-fw"></i><br>
