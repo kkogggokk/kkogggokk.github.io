@@ -245,7 +245,7 @@
     }
 
     h4 {
-        ffont-family: 'Nanum Brush Script', cursive;
+        font-family: 'Nanum Brush Script', cursive;
         font-size: 20px;
 
         @include media-query($on-laptop) {
