@@ -7,9 +7,11 @@ type: page
 ---
 
 <div class="page clearfix">
-    <div>{% include search.html %}</div> 
     <div class="left">
         <h1>{{page.title}}</h1>
+
+        <div>{% include search.html %}</div> 
+        
         <hr>
         {% capture tags %}
           {% for tag in site.tags %}
