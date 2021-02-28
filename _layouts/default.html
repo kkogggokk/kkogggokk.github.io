@@ -22,14 +22,14 @@
     </script>
     <!-- <script src="{{ " /js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
   
-    <script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
+    <script src="{{ site.baseurl }}/_assets/js/simple-jekyll-search.min.js"></script>
 
     <!-- 검색기능 연동 -->
     <script>
       window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.baseurl }}/_asset/json/search.json',
+        json: '{{ site.baseurl }}/_assets/json/search.json',
         searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 10,
