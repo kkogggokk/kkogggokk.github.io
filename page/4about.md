@@ -90,12 +90,12 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
       <!-- <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2> --> 
       <ul>
         <li>🧑‍🎓 Gachon Univ. Computer Science</li>
-        <li>🧑‍💻 Ahnlab Software QA Treinee</li>
+        <li>🧑‍💻 Ahnlab Software QA Trainee</li>
         <li>🧑‍💻 Security pentest consultant</li>
         <li>🏆 Engineer Information Processing</li>
         <li>🏆 CCPG</li>
-        <li>💡 Web & Mobile Pentest</li>
-        <li>💡 Python</li>
+        <li>⚙️ Web & Mobile Pentest</li>
+        <li>⚙️ Python</li>
         <li>...</li>
       </ul>
     </div>
@@ -105,8 +105,7 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
 <div class="about-content-right">
     <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
     <ul>
-    <li>🏋️‍♀️ Exercise : Fitness, Bicycle, Surfing, Snowboarding,Pilates </li>
-    <li>📖 Knowledge about Everything</li>
+    <li>🏋️‍♀️ Exercise</li>
     <li>🐱 Cat</li>
     <li>⛱ Travel</li>
     </ul>
