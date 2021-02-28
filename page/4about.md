@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: aobut
 title: About
 permalink: /about/
 icon: heart
