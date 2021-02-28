@@ -1,8 +1,6 @@
 /**
  * Site header
  */
- @import url(https://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
-
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -13,7 +11,7 @@
 }
 
 .site-title {
-    font-family: 'Nanum Brush Script', serif;;
+    font-family: 'Nanum Gothic Coding', serif;
     font-size: 26px;
     font-weight: 300;
     line-height: 56px;
@@ -106,7 +104,7 @@
 }
 
 .footer-heading {
-    font-family: 'Nanum Brush Script', serif;;
+    font-family: 'Nanum Gothic Coding', serif;
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
 }
@@ -118,7 +116,7 @@
 }
 
 .footer-col-wrapper {
-    font-family: 'Nanum Brush Script', serif;;
+    font-family: 'Nanum Gothic Coding', serif;
     font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
@@ -177,7 +175,7 @@
 }
 
 .page-heading {
-    font-family: 'Nanum Brush Script', serif;;
+    font-family: 'Nanum Gothic Coding', serif;
     font-size: 20px;
 }
 
@@ -191,14 +189,14 @@
 }
 
 .post-meta {
-    font-family: 'Nanum Brush Script', serif;;
+    font-family: 'Nanum Gothic Coding', serif;
     font-size: $small-font-size;
     color: $grey-color;
 }
 
 .post-link {
     display: block;
-    font-family: 'Nanum Brush Script', serif;;
+    font-family: 'Nanum Gothic Coding', serif;
     font-size: 24px;
 }
 
@@ -212,13 +210,13 @@
 }
 
 .post-title {
-    font-family: 'Nanum Brush Script', serif;;
+    font-family: 'Nanum Gothic Coding', serif;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-family: 'Nanum Brush Script', serif;;
+        font-family: 'Nanum Gothic Coding', serif;
         font-size: 36px;
     }
 }
@@ -227,31 +225,31 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-family: 'Nanum Brush Script', serif;;
+        font-family: 'Nanum Gothic Coding', serif;
         font-size: 32px;
 
         @include media-query($on-laptop) {
-            font-family: 'Nanum Brush Script', serif;;
+            font-family: 'Nanum Gothic Coding', serif;
             font-size: 28px;
         }
     }
 
     h3 {
-        font-family: 'Nanum Brush Script', serif;
+        font-family: 'Nanum Gothic Coding', serif;
         font-size: 26px;
 
         @include media-query($on-laptop) {
-            font-family: 'Nanum Brush Script', serif;
+            font-family: 'Nanum Gothic Coding', serif;
             font-size: 22px;
         }
     }
 
     h4 {
-        font-family: 'Nanum Brush Script', serif;
+        font-family: 'Nanum Gothic Coding', serif;
         font-size: 20px;
 
         @include media-query($on-laptop) {
-            font-family: 'Nanum Brush Script', serif;
+            font-family: 'Nanum Gothic Coding', serif;
             font-size: 18px;
         }
     }
