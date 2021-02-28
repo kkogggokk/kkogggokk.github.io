@@ -18,7 +18,7 @@ type: page
 <div class="about">
   <div class="about-profile">
     <div class="about-profile-image" style="text-align: center;">
-      <img src="https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/_assets/img/_SIG_kkogggokk.png" alt="kkogggokk">
+      <img src="https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/_assets/img/_SIG_kkogggokk.png" alt="kkogggokk" width='300' height='300'>
     </div>
     <div class="about-profile-content" style="text-align: center;">
     <p>    hello, world!     </p>
