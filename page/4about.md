@@ -27,29 +27,27 @@ type: page
 </div>
 
 <div class="about-profile-content-contacts">
-<li>
-    <span>Seoul, Republic of Korea</span>
-</li>
-<li>
-    <a href="mailto:{{site.email}}" title="email">
-    <i class="fa fa-envelope-o" aria-hidden="true"></i>E-mail</a>
-</li>
-<li>
-    <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
-</li>
-<li>
-   <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
-</li>
-<li>
-    <a href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
-</li>
+  <li>
+      <span>Seoul, Republic of Korea</span>
+  </li>
+  <li>
+      <a href="mailto:{{site.email}}" title="email">
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>E-mail</a>
+  </li>
+  <li>
+      <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
+  </li>
+  <li>
+    <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i>LinkedIn</a>
+  </li>
+  <li>
+      <a href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+  </li>
 </div>
-</div>
-  </div>
 
 <dic class="about-github-calendar">
-<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
   <div>
       <!-- Prepare a container for your calendar. -->
       <!-- <div style="text-align: center;"><strong>나의 GitHub Contribution 그래프</strong></div> -->
@@ -68,8 +66,9 @@ type: page
   </script>
 </div>
 
-# Experiences 
+
 <div class="about-content">
+# Experiences 
   <div class="about-content-left">
     <ul>
       <li>🧑‍🎓 Gachon Univ. Computer Science</li>
@@ -82,6 +81,7 @@ type: page
       <li>...</li>
     </ul>
   </div>
+# Likes 
   <div class="about-content-right">
       <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
       <ul>
@@ -91,7 +91,4 @@ type: page
       <li>⛱ Travel</li>
       </ul>
   </div>
-</div>
-  
-# Likes 
-    
+</div>    
