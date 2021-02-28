@@ -45,7 +45,7 @@ type: page
   </li>
 </div>
 
-<dic class="about-github-calendar">
+<div class="about-github-calendar">
   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
   <div>
@@ -67,28 +67,27 @@ type: page
 </div>
 
 
-<div class="about-content">
 # Experiences 
-  <div class="about-content-left">
-    <ul>
-      <li>🧑‍🎓 Gachon Univ. Computer Science</li>
-      <li>🧑‍💻 Ahnlab Software QA Treinee</li>
-      <li>🧑‍💻 Security pentest consultant</li>
-      <li>🏆 Engineer Information Processing</li>
-      <li>🏆 CCPG</li>
-      <li>⚙️ Web & Mobile Pentest</li>
-      <li>⚙️ Python</li>
-      <li>...</li>
-    </ul>
-  </div>
+<div class="about-content-left">
+  <ul>
+    <li>🧑‍🎓 Gachon Univ. Computer Science</li>
+    <li>🧑‍💻 Ahnlab Software QA Treinee</li>
+    <li>🧑‍💻 Security pentest consultant</li>
+    <li>🏆 Engineer Information Processing</li>
+    <li>🏆 CCPG</li>
+    <li>⚙️ Web & Mobile Pentest</li>
+    <li>⚙️ Python</li>
+    <li>...</li>
+  </ul>
+</div>
+
 # Likes 
-  <div class="about-content-right">
-      <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
-      <ul>
-      <li>🏋️‍♀️ Exercise : Fitness, Bicycle, Surfing, Snowboarding,Pilates </li>
-      <li>📖 Knowledge about Everything</li>
-      <li>🐱 Cat</li>
-      <li>⛱ Travel</li>
-      </ul>
-  </div>
-</div>    
+<div class="about-content-right">
+    <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
+    <ul>
+    <li>🏋️‍♀️ Exercise : Fitness, Bicycle, Surfing, Snowboarding,Pilates </li>
+    <li>📖 Knowledge about Everything</li>
+    <li>🐱 Cat</li>
+    <li>⛱ Travel</li>
+    </ul>
+</div>
