@@ -93,7 +93,7 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
     });
 </script>
 
-# 🪄 Experiences 
+# Experiences 
   <div class="about-content">
     <div class="about-content-left">
       <!-- <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2> --> 
@@ -108,29 +108,23 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
     </div>
   </div>
   
-# 🎊Likes 
+# Likes 
 <div class="about-content-right">
     <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
     <ul>
     <li>
-        <i class="far fa-check-square fa-fw"></i>
-        Exercise : Pilates, Fitness 
+        🏋️‍♀️ Exercise : Pilates, Fitness, Bicycle, Surfing, Snowboarding
     </li>
     <li>
         <i class="far fa-check-square fa-fw"></i>
-        My Cat is Hob[호비]: Korean Shorthair cat cheese tabby
+        🐱 My Cat is Hob[호비]: Korean Shorthair cat cheese tabby
     </li>
     <li>
         <i class="far fa-check-square fa-fw"></i>
-        <b>Knowledge&nbsp;</b> about Everything
+        📖 Knowledge about Everything
     </li>
     <li>
-        <i class="far fa-check-square fa-fw"></i>
-        Travel&nbsp;
-        <i class="fas fa-suitcase-rolling fa-fw"></i>&nbsp;
-        <i class="fas fa-car-side fa-fw"></i>&nbsp;
-        <i class="fas fa-plane fa-fw"></i>&nbsp;
-        <i class="fas fa-camera fa-fw"></i>
+        ⛱ Travel
     </li>
     </ul>
 </div>
