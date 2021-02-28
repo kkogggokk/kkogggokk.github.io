@@ -7,6 +7,7 @@ type: page
 ---
 
 <div class="page clearfix">
+
     <div class="common-header search">
         <div class="search">
           <i class="fas fa-search fa-fw"></i>
@@ -27,7 +28,7 @@ type: page
         window.simpleJekyllSearch = new SimpleJekyllSearch({
           searchInput: document.getElementById('search-input'),
           resultsContainer: document.getElementById('search-results'),
-          json: '{{ site.baseurl }}/assets/json/search-data.json',
+          json: '{{ site.baseurl }}/_assets/json/search.json',
           searchResultTemplate: `
             <li>
               <div>
@@ -107,7 +108,7 @@ type: page
           window.simpleJekyllSearch.search(document.getElementById('search-input').value);
         };
       </script>
-      
+
     <div class="left">
         <h1>{{page.title}}</h1>
         <hr>
