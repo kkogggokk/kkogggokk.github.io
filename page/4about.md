@@ -19,23 +19,15 @@ type: page
   <div class="about-profile">
     <div class="about-profile-image">
       <img src="https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/_assets/img/_SIG_kkogggokk.png" alt="kkogggokk">
-      <!-- <div>&copy;kkogggokk</div> -->
     </div>
+    <div class="about-profile-content">
+    <p>    hello, world!     </p>
+    </div>
+  </div>
 </div>
-
-<div class="about-profile-content">
-    <!-- <h2><span>수정중</span> KKKKK<span>u</span> GGG</h2> -->
-<p>
-dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-robot fa-fw"></i><br>
-<span class="whisper">ddddd<i class="far fa-smile fa-fw"></i>)</span>
-</p>
-<p>
-개발 관련 글을 자유롭게 올립니다.ddd
-</p>
 
 <div class="about-profile-content-contacts">
 <li>
-    <i class="fas fa-map-marker-alt fa-fw"></i>
     <span>Seoul, Republic of Korea</span>
 </li>
 <li>
@@ -87,7 +79,6 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
 # Experiences 
   <div class="about-content">
     <div class="about-content-left">
-      <!-- <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2> --> 
       <ul>
         <li>🧑‍🎓 Gachon Univ. Computer Science</li>
         <li>🧑‍💻 Ahnlab Software QA Treinee</li>
@@ -99,15 +90,16 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
         <li>...</li>
       </ul>
     </div>
+    <div class="about-content-right">
+        <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
+        <ul>
+        <li>🏋️‍♀️ Exercise : Fitness, Bicycle, Surfing, Snowboarding,Pilates </li>
+        <li>📖 Knowledge about Everything</li>
+        <li>🐱 Cat</li>
+        <li>⛱ Travel</li>
+        </ul>
+    </div>
   </div>
   
 # Likes 
-<div class="about-content-right">
-    <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
-    <ul>
-    <li>🏋️‍♀️ Exercise : Fitness, Bicycle, Surfing, Snowboarding,Pilates </li>
-    <li>📖 Knowledge about Everything</li>
-    <li>🐱 Cat</li>
-    <li>⛱ Travel</li>
-    </ul>
-</div>
+    
