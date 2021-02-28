@@ -98,13 +98,14 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
     <div class="about-content-left">
       <!-- <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2> --> 
       <ul>
-        <li>Gachon Univ. Computer Science</li>
-        <li>Ahnlan Software QA Treinee</li>
-        <li>Security pentest consultant</li>
-        <li>Web Mobile Hacking</li>
-        <li>정보처리기사</li>
-        <li>CCPG</li>
-        <li>Python</li>
+        <li>🧑‍🎓 Gachon Univ. Computer Science</li>
+        <li>🧑‍💻 Ahnlan Software QA Treinee</li>
+        <li>🧑‍💻 Security pentest consultant</li>
+        <li>🏆 Engineer Information Processing</li>
+        <li>🏆 CCPG</li>
+        <li>🪄 Web Mobile Hacking</li>
+        <li>🪄 Python</li>
+        <li>...</li>
       </ul>
     </div>
   </div>
