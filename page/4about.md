@@ -70,7 +70,7 @@ type: page
 <div class="about-content-left">
   <ul>
     <li>🧑‍🎓 Gachon Univ. Computer Science</li>
-    <li>🧑‍💻 Ahnlab Software QA Treinee</li>
+    <li>🧑‍💻 Ahnlab Software QA Trainee</li>
     <li>🧑‍💻 Security pentest consultant</li>
     <li>🏆 Engineer Information Processing</li>
     <li>🏆 CCPG</li>
