@@ -17,16 +17,16 @@ type: page
 
 <div class="about">
   <div class="about-profile">
-    <div class="about-profile-image" style="text-align: center;">
-      <img src="https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/_assets/img/_SIG_kkogggokk.png" alt="kkogggokk" width='300' height='300'>
+    <div class="about-profile-image">
+      <img src="https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/_assets/img/_SIG_kkogggokk.png" alt="kkogggokk">
     </div>
-    <div class="about-profile-content" style="text-align: center;">
+    <div class="about-profile-content">
     <p>    hello, world!     </p>
     </div>
   </div>
 </div>
 
-<!-- <div class="about-profile-content-contacts">
+<div class="about-profile-content-contacts">
   <li>
       <span>Seoul, Republic of Korea</span>
   </li>
@@ -43,7 +43,7 @@ type: page
   <li>
       <a href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
   </li>
-</div> -->
+</div>
 
 <div class="about-github-calendar">
   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
@@ -66,36 +66,12 @@ type: page
   </script>
 </div>
 
+
 # Experiences 
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <div class="about-content">
-    <div class="about-content-left">
-      <!-- <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2> --> 
-      <ul>
-        <li>🧑‍🎓 Gachon Univ. Computer Science</li>
-<<<<<<< HEAD
-        <li>🧑‍💻 Ahnlab Software QA Trainee</li>
-=======
-        <li>🧑‍💻 Ahnlan Software QA Treinee</li>
->>>>>>> parent of 7e82c4f... update
-        <li>🧑‍💻 Security pentest consultant</li>
-        <li>🏆 Engineer Information Processing</li>
-        <li>🏆 CCPG</li>
-        <li>⚙️ Web & Mobile Pentest</li>
-        <li>⚙️ Python</li>
-        <li>...</li>
-      </ul>
-    </div>
-  </div>
-  
-=======
-=======
->>>>>>> 3baa5adb2a11078fb718ccf9be5ca86c8ceeaae5
 <div class="about-content-left">
   <ul>
     <li>🧑‍🎓 Gachon Univ. Computer Science</li>
-    <li>🧑‍💻 Ahnlab Software QA Trainee</li>
+    <li>🧑‍💻 Ahnlab Software QA Treinee</li>
     <li>🧑‍💻 Security pentest consultant</li>
     <li>🏆 Engineer Information Processing</li>
     <li>🏆 CCPG</li>
@@ -105,15 +81,12 @@ type: page
   </ul>
 </div>
 
-<<<<<<< HEAD
->>>>>>> 3baa5adb2a11078fb718ccf9be5ca86c8ceeaae5
-=======
->>>>>>> 3baa5adb2a11078fb718ccf9be5ca86c8ceeaae5
 # Likes 
 <div class="about-content-right">
     <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
     <ul>
-    <li>🏋️‍♀️ Exercise</li>
+    <li>🏋️‍♀️ Exercise : Fitness, Bicycle, Surfing, Snowboarding,Pilates </li>
+    <li>📖 Knowledge about Everything</li>
     <li>🐱 Cat</li>
     <li>⛱ Travel</li>
     </ul>

@@ -5,10 +5,8 @@ permalink: /tag/
 icon: tags
 type: page
 ---
-
 <div class="page clearfix">
     <div class="left">
-        <div>{% include search.html %}</div>  
         <h1>{{page.title}}</h1>
         <hr>
         {% capture tags %}
@@ -34,6 +32,7 @@ type: page
           {% endfor %}
         {% endfor %}
         </ul>
+
     </div>
     
     <div class="right">
@@ -55,7 +54,9 @@ type: page
 
                 </ul>
             </div>
+            <!-- 其他div框放到这里 -->
+            <!-- <div class="side">bbbb</div> -->
         </div>
     </div>
 </div>
-<script src="{{ "/_assets/js/pageContent.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
