@@ -15,11 +15,12 @@ type: page
 
 
 
+# About 
 <div class="about">
   <div class="about-profile">
     <div class="about-profile-image">
       <img src="https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/_assets/img/_SIG_kkogggokk.png" alt="kkogggokk">
-      <!-- <div>&copy;kkogggokk</div> -->
+      <div>&copy;kkogggokk</div>
     </div>
 </div>
 
@@ -115,16 +116,15 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
     <ul>
     <li>
         <i class="far fa-check-square fa-fw"></i>
-        <b>Marvel&nbsp;</b> Comics & Movies
+        Exercise : Pilates, Fitness 
     </li>
     <li>
         <i class="far fa-check-square fa-fw"></i>
-        Korean <b>&nbsp;Chimaek&nbsp;</b>
-        (<i class="fas fa-drumstick-bite fa-fw"></i> + <i class="fas fa-beer fa-fw"></i>)
+        My Cat is Hob[호비]: Korean Shorthair cat cheese tabby 
     </li>
     <li>
         <i class="far fa-check-square fa-fw"></i>
-        <b>Knowledge&nbsp;</b> about Everything
+        Knowledge about Everything
     </li>
     <li>
         <i class="far fa-check-square fa-fw"></i>
