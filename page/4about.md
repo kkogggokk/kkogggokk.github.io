@@ -26,7 +26,7 @@ type: page
   </div>
 </div>
 
-<div class="about-profile-content-contacts">
+<!-- <div class="about-profile-content-contacts">
   <li>
       <span>Seoul, Republic of Korea</span>
   </li>
@@ -43,7 +43,7 @@ type: page
   <li>
       <a href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
   </li>
-</div>
+</div> -->
 
 <div class="about-github-calendar">
   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
@@ -65,7 +65,6 @@ type: page
       });
   </script>
 </div>
-
 
 # Experiences 
 <div class="about-content-left">
