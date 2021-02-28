@@ -25,7 +25,6 @@ type: page
 
 <div class="about-profile-content">
     <!-- <h2><span>수정중</span> KKKKK<span>u</span> GGG</h2> -->
-
 <p>
 dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-robot fa-fw"></i><br>
 <span class="whisper">ddddd<i class="far fa-smile fa-fw"></i>)</span>
@@ -94,7 +93,7 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
     });
 </script>
 
-# Experiences 
+# 🪄 Experiences 
   <div class="about-content">
     <div class="about-content-left">
       <!-- <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2> --> 
@@ -109,18 +108,17 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
     </div>
   </div>
   
-# Likes 
+# 🎊Likes 
 <div class="about-content-right">
     <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
     <ul>
     <li>
         <i class="far fa-check-square fa-fw"></i>
-        <b>Marvel&nbsp;</b> Comics & Movies
+        Exercise : Pilates, Fitness 
     </li>
     <li>
         <i class="far fa-check-square fa-fw"></i>
-        Korean <b>&nbsp;Chimaek&nbsp;</b>
-        (<i class="fas fa-drumstick-bite fa-fw"></i> + <i class="fas fa-beer fa-fw"></i>)
+        My Cat is Hob[호비]: Korean Shorthair cat cheese tabby
     </li>
     <li>
         <i class="far fa-check-square fa-fw"></i>
@@ -135,6 +133,4 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
         <i class="fas fa-camera fa-fw"></i>
     </li>
     </ul>
-</div>
-  </div>
 </div>
