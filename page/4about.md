@@ -20,7 +20,7 @@ type: page
     <div class="about-profile-image" style="text-align: center;">
       <img src="https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/_assets/img/_SIG_kkogggokk.png" alt="kkogggokk">
     </div>
-    <div class="about-profile-content">
+    <div class="about-profile-content" style="text-align: center;">
     <p>    hello, world!     </p>
     </div>
   </div>
