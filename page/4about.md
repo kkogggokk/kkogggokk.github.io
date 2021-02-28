@@ -40,10 +40,10 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
 </li>
 <li>
     <a href="mailto:{{site.email}}" title="email">
-    <i class="fa fa-envelope-o" aria-hidden="true"></i>E-mail</a>
+    <i class="fa fa-envelope-o" aria-hidden="true"></i></a>E-mail
 </li>
 <li>
-    <a href="https://github.com/{{site.github_username}}" title="GitHub">GitHub<i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
 </li>
 <li>
     <a href="{{ site.social.links[1] }}" target="_blank">
