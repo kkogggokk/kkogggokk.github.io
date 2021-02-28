@@ -68,6 +68,7 @@ type: page
 
 # Experiences 
 <<<<<<< HEAD
+<<<<<<< HEAD
   <div class="about-content">
     <div class="about-content-left">
       <!-- <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2> --> 
@@ -89,6 +90,8 @@ type: page
   </div>
   
 =======
+=======
+>>>>>>> 3baa5adb2a11078fb718ccf9be5ca86c8ceeaae5
 <div class="about-content-left">
   <ul>
     <li>🧑‍🎓 Gachon Univ. Computer Science</li>
@@ -102,6 +105,9 @@ type: page
   </ul>
 </div>
 
+<<<<<<< HEAD
+>>>>>>> 3baa5adb2a11078fb718ccf9be5ca86c8ceeaae5
+=======
 >>>>>>> 3baa5adb2a11078fb718ccf9be5ca86c8ceeaae5
 # Likes 
 <div class="about-content-right">
