@@ -90,7 +90,11 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
       <!-- <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2> --> 
       <ul>
         <li>🧑‍🎓 Gachon Univ. Computer Science</li>
+<<<<<<< HEAD
         <li>🧑‍💻 Ahnlab Software QA Trainee</li>
+=======
+        <li>🧑‍💻 Ahnlan Software QA Treinee</li>
+>>>>>>> parent of 7e82c4f... update
         <li>🧑‍💻 Security pentest consultant</li>
         <li>🏆 Engineer Information Processing</li>
         <li>🏆 CCPG</li>
