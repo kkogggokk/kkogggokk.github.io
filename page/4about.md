@@ -69,29 +69,29 @@ type: page
 </div>
 
 # Experiences 
-  <div class="about-content">
-    <div class="about-content-left">
-      <ul>
-        <li>🧑‍🎓 Gachon Univ. Computer Science</li>
-        <li>🧑‍💻 Ahnlab Software QA Treinee</li>
-        <li>🧑‍💻 Security pentest consultant</li>
-        <li>🏆 Engineer Information Processing</li>
-        <li>🏆 CCPG</li>
-        <li>⚙️ Web & Mobile Pentest</li>
-        <li>⚙️ Python</li>
-        <li>...</li>
-      </ul>
-    </div>
-    <div class="about-content-right">
-        <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
-        <ul>
-        <li>🏋️‍♀️ Exercise : Fitness, Bicycle, Surfing, Snowboarding,Pilates </li>
-        <li>📖 Knowledge about Everything</li>
-        <li>🐱 Cat</li>
-        <li>⛱ Travel</li>
-        </ul>
-    </div>
+<div class="about-content">
+  <div class="about-content-left">
+    <ul>
+      <li>🧑‍🎓 Gachon Univ. Computer Science</li>
+      <li>🧑‍💻 Ahnlab Software QA Treinee</li>
+      <li>🧑‍💻 Security pentest consultant</li>
+      <li>🏆 Engineer Information Processing</li>
+      <li>🏆 CCPG</li>
+      <li>⚙️ Web & Mobile Pentest</li>
+      <li>⚙️ Python</li>
+      <li>...</li>
+    </ul>
   </div>
+  <div class="about-content-right">
+      <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
+      <ul>
+      <li>🏋️‍♀️ Exercise : Fitness, Bicycle, Surfing, Snowboarding,Pilates </li>
+      <li>📖 Knowledge about Everything</li>
+      <li>🐱 Cat</li>
+      <li>⛱ Travel</li>
+      </ul>
+  </div>
+</div>
   
 # Likes 
     
