@@ -113,14 +113,12 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
     <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
     <ul>
     <li>
-        🏋️‍♀️ Exercise : Pilates, Fitness, Bicycle, Surfing, Snowboarding
+      🏋️‍♀️ Exercise : Pilates, Fitness, Bicycle, Surfing, Snowboarding
     </li>
     <li>
-        <i class="far fa-check-square fa-fw"></i>
         🐱 My Cat is Hob[호비]: Korean Shorthair cat cheese tabby
     </li>
     <li>
-        <i class="far fa-check-square fa-fw"></i>
         📖 Knowledge about Everything
     </li>
     <li>
