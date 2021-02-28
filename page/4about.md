@@ -15,16 +15,15 @@ type: page
 
 
 
-## test 
+# test 
 <div class="about">
   <div class="about-profile">
     <div class="about-profile-image">
-      <img src="/assets/pic/_SIG_kkogggokk.png" alt="dfjkdfjlk">
-      <div>&copy; kkk</div>
+      <img src="https://raw.githubusercontent.com/kkogggokk/kkogggokk.github.io/master/_assets/img/_SIG_kkogggokk.png" alt="kkogggokk">
+      <div>&copy;kkogggokk</div>
     </div>
 </div>
 
-## 수정중 
 <div class="about-profile-content">
     <!-- <h2><span>수정중</span> KKKKK<span>u</span> GGG</h2> -->
 
@@ -80,7 +79,7 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
 
 <div>
     <!-- Prepare a container for your calendar. -->
-    <div style="text-align: center;"><strong>나의 GitHub Contribution 그래프</strong></div> 
+    <!-- <div style="text-align: center;"><strong>나의 GitHub Contribution 그래프</strong></div> -->
     <div class="calendar">
         <!-- Loading stuff -->
         Loading data ...
@@ -96,7 +95,7 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
     });
 </script>
 
-## Experiences 
+# Experiences 
   <div class="about-content">
     <div class="about-content-left">
       <!-- <h2><i class="fas fa-hat-wizard fa-fw"></i> Experiences</h2> --> 
@@ -109,7 +108,9 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
         <li class="rank-3"><i class="far fa-check-square fa-fw"></i> JavaScript, HTML/CSS</li>
       </ul>
     </div>
+  </div>
   
+# Likes 
 <div class="about-content-right">
     <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2>
     <ul>
