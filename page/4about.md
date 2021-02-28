@@ -84,8 +84,7 @@ type: page
 <div class="about-content-right">
     <!-- <h2><i class="far fa-thumbs-up fa-fw"></i> Likes</h2> -->
     <ul>
-    <li>🏋️‍♀️ Exercise : Fitness, Bicycle, Surfing, Snowboarding,Pilates </li>
-    <li>📖 Knowledge about Everything</li>
+    <li>🏋️‍♀️ Exercise</li>
     <li>🐱 Cat</li>
     <li>⛱ Travel</li>
     </ul>
