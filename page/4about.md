@@ -39,7 +39,8 @@ dfdfdf분야를 가리지 않는 <b>잡식성</b> 개발자 <i class="fas fa-rob
     <span>Seoul, Republic of Korea</span>
 </li>
 <li>
-    <a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+    <a href="mailto:{{site.email}}" title="email">E-mail
+    <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
 </li>
 <li>
     <a href="{{ site.social.links[0] }}" target="_blank">
